@@ -12,7 +12,7 @@ The gist of this workflow is that: the tip of master branch is always the latest
 
 Scenario: Currently we have a repository named "Git-Example". It has only one file in it: README.md. Suppose one person wants to change README.md by adding more description in it.
 
-![1572289645267](/tmp/1572289645267.png)
+![1](img/1.png)
 
 Step1. In this own local repository,  run
 
@@ -32,7 +32,7 @@ git checout -b more-description
 
 To create a new branch named "more-description" and then check it out.
 
-![1572290356920](/tmp/1572290356920.png)
+![2](img/2.png)
 
 
 
@@ -52,25 +52,25 @@ git commit -m "more description done!"
 git push origin more-description
 ```
 
-![1572290782566](/tmp/1572290782566.png)
+![3](img/3.png)
 
 
 
 Step5. Now, on the github repository page, there will be a notification telling that "more-description" is just pushed. One can click on the button "compare & pull request" to create a pull request.
 
-![1572290933271](/tmp/1572290933271.png)
+![4](img/4.png)
 
 
 
 Step6. On the "Open pull request" page, add more description.  On the right-hand, choose any reviewer for this PR (usually it is your tech lead). Then one click on the "Create pull request" button.
 
-![1572291207473](/tmp/1572291207473.png)
+![5](img/5.png)
 
 
 
 Step7. Everything is done! One can now notify his tech lead about this PR and wait for it to be merged.
 
-![1572291453901](/tmp/1572291453901.png)
+![6](img/6.png)
 
 
 
@@ -90,7 +90,7 @@ Step7. Everything is done! One can now notify his tech lead about this PR and wa
 
 3. There are three ways to merge PR, what are their difference?
 
-   ![1572291992300](/tmp/1572291992300.png)
+   ![7](img/7.png)
 
    Answer: <https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges>
 
