@@ -14,7 +14,7 @@ Scenario: Currently we have a repository named "Git-Example". It has only one fi
 
 ![1](img/1.png)
 
-Step1. In this own local repository,  run
+Step1. In one's own local repository, on master branch,  run
 
 ```bash
 git pull origin master
